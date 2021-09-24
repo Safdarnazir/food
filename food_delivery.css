@@ -1,0 +1,154 @@
+*{
+margin: 0;
+padding: 0;
+}
+nav{
+    position: sticky;
+    display: flex;
+   top: 0px;
+}
+.logo img{
+    margin: -10px -10px;
+    height: 83px;
+}
+.list ul{ 
+    display: flex; 
+}
+.list ul li{
+    font-size: 18px;
+  list-style: none;
+}
+.list ul li a{
+    display: block;
+    margin-top: 18px;
+    padding: 5px 20px;  
+    color: rgb(243,26,4);
+    border-radius: 30px;
+text-decoration: none;
+}
+.list ul li a:hover{
+    background-color:black;
+color: white;
+text-decoration: underline;
+}
+nav::before{
+    content: "";
+background-color:black;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.5;
+}
+
+/* SECTION */
+#sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 200px;
+    height: 450px;
+}
+#sec h1{
+    font-family: 'Gluten', cursive;
+    padding: 5px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#sec p{
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+    width: 120px;
+    border-radius: 7px;
+    background-color:orange;
+    height: 37px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#sec::before{
+    content: "";
+    background: url('food_delivery/food.jpg') no-repeat center center;
+    background-size:cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.header{
+    margin-top: 80px;
+    text-align: center;
+}
+.menu{
+    /* margin-top: 80px; */
+    background-color: aliceblue;
+    padding: 20px;
+}
+.menu h2{
+    padding-bottom:2px;
+}
+.menu div{
+    background-color: beige;
+    display: inline-block;
+    margin-left: 102px;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid rgb(0, 255, 0);
+    text-align: center;
+    border-radius: 20px;
+}
+.menu img{
+    border-radius: 20px;  
+    width: 250px; 
+    height: 301px;
+}
+.item4,.item5{
+margin-top: 20px;
+}
+.menu div h2:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    border-radius: 30px;
+}
+
+.service{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color:#420606;
+}
+.service div{
+    text-align: center;
+    padding: 50px;
+}
+.ser img{
+  width: 80px;  
+}
+.fast img{
+    margin-top: 14px;
+    width: 90px;
+}
+.order img{
+    width: 80px;
+}
+.service h2{
+    padding: 10px;
+    color: white;
+}
+.service p{
+    padding: 5px;
+    color: rgb(125, 171, 211);
+}

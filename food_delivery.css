@@ -76,7 +76,7 @@ opacity: 0.5;
 }
 #sec::before{
     content: "";
-    background: url('food_delivery/food.jpg') no-repeat center center;
+    background: url('food.jpg') no-repeat center center;
     background-size:cover;
     position: absolute;
     top: 0px;
